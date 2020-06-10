@@ -1,0 +1,62 @@
+Found 5216 images belonging to 2 classes.
+Found 5216 images belonging to 2 classes.
+Epoch 1/15
+ - 128s - loss: 0.3136 - acc: 0.8758 - val_loss: 0.5132 - val_acc: 0.8047
+
+Epoch 00001: val_acc improved from -inf to 0.80469, saving model to MyModel_chest.h5
+Epoch 2/15
+ - 68s - loss: 0.1891 - acc: 0.9322 - val_loss: 0.6486 - val_acc: 0.8203
+
+Epoch 00002: val_acc improved from 0.80469 to 0.82031, saving model to MyModel_chest.h5
+Epoch 3/15
+ - 65s - loss: 0.1531 - acc: 0.9432 - val_loss: 0.4562 - val_acc: 0.8516
+
+Epoch 00003: val_acc improved from 0.82031 to 0.85156, saving model to MyModel_chest.h5
+Epoch 4/15
+ - 65s - loss: 0.1495 - acc: 0.9434 - val_loss: 0.7571 - val_acc: 0.8125
+
+Epoch 00004: val_acc did not improve from 0.85156
+Epoch 5/15
+ - 64s - loss: 0.1470 - acc: 0.9395 - val_loss: 0.3721 - val_acc: 0.8750
+
+Epoch 00005: val_acc improved from 0.85156 to 0.87500, saving model to MyModel_chest.h5
+Epoch 6/15
+ - 67s - loss: 0.1295 - acc: 0.9506 - val_loss: 1.0270 - val_acc: 0.7500
+
+Epoch 00006: val_acc did not improve from 0.87500
+Epoch 7/15
+ - 67s - loss: 0.1464 - acc: 0.9420 - val_loss: 0.9532 - val_acc: 0.7422
+
+Epoch 00007: val_acc did not improve from 0.87500
+Epoch 8/15
+ - 66s - loss: 0.1347 - acc: 0.9500 - val_loss: 0.5212 - val_acc: 0.8750
+
+Epoch 00008: val_acc did not improve from 0.87500
+Epoch 9/15
+ - 65s - loss: 0.1330 - acc: 0.9469 - val_loss: 0.5024 - val_acc: 0.8594
+
+Epoch 00009: val_acc did not improve from 0.87500
+Epoch 10/15
+ - 64s - loss: 0.1287 - acc: 0.9510 - val_loss: 0.4548 - val_acc: 0.8281
+
+Epoch 00010: val_acc did not improve from 0.87500
+Epoch 11/15
+ - 65s - loss: 0.1415 - acc: 0.9449 - val_loss: 0.4547 - val_acc: 0.8203
+
+Epoch 00011: val_acc did not improve from 0.87500
+Epoch 12/15
+ - 66s - loss: 0.1359 - acc: 0.9465 - val_loss: 0.8436 - val_acc: 0.8203
+
+Epoch 00012: val_acc did not improve from 0.87500
+Epoch 13/15
+ - 65s - loss: 0.1381 - acc: 0.9422 - val_loss: 0.3577 - val_acc: 0.8906
+
+Epoch 00013: val_acc improved from 0.87500 to 0.89062, saving model to MyModel_chest.h5
+Epoch 14/15
+ - 64s - loss: 0.1286 - acc: 0.9492 - val_loss: 1.4290 - val_acc: 0.6484
+
+Epoch 00014: val_acc did not improve from 0.89062
+Epoch 15/15
+ - 64s - loss: 0.1218 - acc: 0.9506 - val_loss: 0.5325 - val_acc: 0.8281
+
+Epoch 00015: val_acc did not improve from 0.89062
