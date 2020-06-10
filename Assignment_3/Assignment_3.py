@@ -5,16 +5,16 @@ import sys
 #read Data
 train = open(sys.argv[1])
 data = np.loadtxt(train)
-train = data[:,:-1]
-trainlabels = data[:,-1]
+train = data[:,1:]
+trainlabels = data[:,0]
 
 onearray = np.ones((train.shape[0], 1))
 train = np.append(train, onearray, axis=1)
 
 test = open(sys.argv[2])
 data = np.loadtxt(test)
-test = data[:,:-1]
-testlabels = data[:,-1]
+test = data[:,1:]
+testlabels = data[:,0]
 
 rows=train.shape[0]
 cols=train.shape[1]
@@ -40,7 +40,7 @@ output_layer=np.matmul(hidden_layer,np.transpose(w))
 obj=np.sum(np.square(output_layer-trainlabels))
 
 epochs=10000
-eta=.01
+eta=.001
 stop=0
 i=0
 prev_obj=np.inf
@@ -81,6 +81,6 @@ result=np.matmul(train,np.transpose(W))
 result=np.array([sigmoid(i) for i in result])
 result=np.dot(result,np.transpose(w))
 
-result=np.round(result)
+result=np.sign(result)
 
 print(result)
