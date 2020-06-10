@@ -1,0 +1,23 @@
+Running on host: node416.
+In directory: /home/s/skj29/assignment_9
+Starting on: Thu Apr 16 04:50:54 EDT 2020
+2020-04-16 04:51:08.442061: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-04-16 04:51:09.582579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:02:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-04-16 04:51:09.692612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 1 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:82:00.0
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+2020-04-16 04:51:09.692722: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0, 1
+2020-04-16 04:51:18.323104: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-16 04:51:18.323426: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 1 
+2020-04-16 04:51:18.323469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N N 
+2020-04-16 04:51:18.323480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 1:   N N 
+2020-04-16 04:51:18.347627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15167 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0, compute capability: 6.0)
+2020-04-16 04:51:18.575860: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 15167 MB memory) -> physical GPU (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:82:00.0, compute capability: 6.0)
+/afs/cad/linux/anaconda3.6/anaconda/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+sge_job_epilog: Removed left over scratch directory  {/scratch/2247864.1.datasci}

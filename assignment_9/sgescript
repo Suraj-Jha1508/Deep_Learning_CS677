@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# Usage: gputest.sh
+# Change job name and email address as needed
+#
+# -- our name ---
+#$ -N Model
+#$ -S /bin/sh
+# Make sure that the .e and .o file arrive in the
+#working directory
+#$ -cwd
+#Merge the standard out and standard error to one file
+#$ -j y
+# Send mail at submission and completion of script
+#$ -m be
+
+# Request a gpu
+#$ -q datasci
+### #$ -q short
+
+/bin/echo Running on host: `hostname`.
+/bin/echo In directory: `pwd`
+/bin/echo Starting on: `date`
+
+# Load CUDA module
+. /opt/modules/init/bash
+module load cuda
+
+module load python3.6
+#module load gsl-gnu4
+#export LD_LIBRARY_PATH=/opt/gsl/1.15/gnu4/lib:$LD_LIBRARY_PATH
+
+#python flower_image_classification_mc.py
+#python flower_classification_cnn.py
+
+#from keras.datasets import mnist
+
+#KERAS_BACKEND=tensorflow python train.py a model.h5 > train_output
+KERAS_BACKEND=tensorflow python test.py  model.h5 > test_output
