@@ -2,7 +2,7 @@
 
 This Repository contain all Assignments and Project i completed during my Deep Learning Course at NJIT
 
-# Assignment 1:
+# Assignment 1: CUDA program for computing the dot product
 
 Write a CUDA program for computing the dot product of a vector in parallel with 
 each row of a matrix. You are required to have each thread access consecutive
@@ -33,12 +33,12 @@ Compute the dot products in parallel your kernel function. You will have to
 transpose the data matrix in order to get coalescent memory access. 
 
 
-# Assignment 2:
+# Assignment 2: CUDA program into an OpenMP
 
 Convert the CUDA program that you wrote for assignment one into an
 OpenMP one. The output of both your CUDA and OpenML programs must be the same. 
 
-# Assignment 3:
+# Assignment 3: Python program that trains a single layer neural network with sigmoid activation
 
 Write a Python program that trains a single layer neural network
 with sigmoid activation. You may use numpy. Your input is in dense 
@@ -71,9 +71,9 @@ Test your program on the XOR dataset:
 work? If not what will you change to make the algorithm converge to a local
 minimum?
 
-# Assignment 4:
+# Assignment 4: Implement stochastic gradient descent
 
-mplement stochastic gradient descent in your back propagation program
+Implement stochastic gradient descent in your back propagation program
 that you wrote in assignment 3. We will do the mini-batch SGD search. 
 
 I. Mini-batch SGD algorithm:
@@ -104,7 +104,7 @@ mini-batch faster or the original one? How about accuracy?
 2. Is the search faster or more accurate if you keep track of the best objective
 in the inner loop?
 
-# Assignment 5:
+# Assignment 5: Python program that trains a neural network
 
 Write a Python program that trains a neural network with a single 2x2
 convolutional layer with stride 1 and global average pooling. See
@@ -133,7 +133,7 @@ and image1.txt is
 0 1 0
 1 0 0
 
-# Assignment 6:
+# Assignment 6: convolutional network in Keras to train the Mini-ImageNet 
 
 Write a convolutional network in Keras to train the Mini-ImageNet 
 dataset on the course website. Your constraint is to create a network
@@ -156,7 +156,7 @@ python test.py <test.npy> <testlabels.npy> <model file>
 The output of test.py is the test error of the data which is
 the number of misclassifications divided by size of the test set.
 
-# Assignment 7:
+# Assignment 7: convolutional network in Keras to train the Mini-ImageNet
 
 Write a convolutional network in Keras to train the Mini-ImageNet 
 dataset on the course website. You may use transfer learning. Your
@@ -176,7 +176,7 @@ python test.py test <model file>
 The output of test.py is the test error of the data which is
 the number of misclassifications divided by size of the test set.
 
-# Assignment 8:
+# Assignment 8: Classify images in the three Kaggle datasets on the course website with convolutional networks
 
 Classify images in the three Kaggle datasets on the course website 
 with convolutional networks. You may use transfer learning. Your
@@ -196,7 +196,7 @@ python test.py test <model file>
 The output of test.py is the test error of the data which is
 the number of misclassifications divided by size of the test set.
 
-# Assignment 9:
+# Assignment 9: Implement a simple GAN in Keras
 
 Implement a simple GAN in Keras to generate MNIST images. Use the GAN given here
 
@@ -216,7 +216,7 @@ Make test.py take one input: the generator model file. The output
 of test.py should be images resembling MNIST digits saved to the output
 file.
 
-# Assignment 10:
+# Assignment 10: Implement a simple black box attack in Keras
 
 Implement a simple black box attack in Keras to attack a pretrained 
 ResNet18 model from Keras. For the substitute model we use a two hidden 
@@ -253,7 +253,7 @@ The output should be the accuracy of adversarial examples generated with
 epsilon=0.0625. A successful submission will have accuracy below 10%
 on the advsersarial examples.
 
-# Assignment 11:
+# Assignment 11: word2vec model from fake news dataset
 
 Learn a word2vec model from fake news dataset and a real news dataset. We 
 will use the word2vec model implemented in the Python Gensim library. Now 
