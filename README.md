@@ -34,12 +34,12 @@ Compute the dot products in parallel your kernel function. You will have to
 transpose the data matrix in order to get coalescent memory access. 
 
 
-# Assignment 2: CUDA program into an OpenMP
+# Assignment 2: [CUDA program into an OpenMP](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/Assignment_2)
 
 Convert the CUDA program that you wrote for assignment one into an
 OpenMP one. The output of both your CUDA and OpenML programs must be the same. 
 
-# Assignment 3: Python program that trains a single layer neural network with sigmoid activation
+# Assignment 3: [Python program that trains a single layer neural network with sigmoid activation](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/Assignment_3)
 
 Write a Python program that trains a single layer neural network
 with sigmoid activation. You may use numpy. Your input is in dense 
@@ -72,7 +72,7 @@ Test your program on the XOR dataset:
 work? If not what will you change to make the algorithm converge to a local
 minimum?
 
-# Assignment 4: Implement stochastic gradient descent
+**# Assignment 4: [Implement stochastic gradient descent](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_4)**
 
 Implement stochastic gradient descent in your back propagation program
 that you wrote in assignment 3. We will do the mini-batch SGD search. 
@@ -105,7 +105,7 @@ mini-batch faster or the original one? How about accuracy?
 2. Is the search faster or more accurate if you keep track of the best objective
 in the inner loop?
 
-# Assignment 5: Python program that trains a neural network
+**# Assignment 5: [Python program that trains a neural network](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_5.py)**
 
 Write a Python program that trains a neural network with a single 2x2
 convolutional layer with stride 1 and global average pooling. See
@@ -134,7 +134,7 @@ and image1.txt is
 0 1 0
 1 0 0
 
-# Assignment 6: convolutional network in Keras to train the Mini-ImageNet 
+**# Assignment 6: [convolutional network in Keras to train the Mini-ImageNet ](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_6)**
 
 Write a convolutional network in Keras to train the Mini-ImageNet 
 dataset on the course website. Your constraint is to create a network
@@ -157,7 +157,7 @@ python test.py <test.npy> <testlabels.npy> <model file>
 The output of test.py is the test error of the data which is
 the number of misclassifications divided by size of the test set.
 
-# Assignment 7: convolutional network in Keras to train the Mini-ImageNet
+**# Assignment 7: [convolutional network in Keras to train the Mini-ImageNet](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_7)**
 
 Write a convolutional network in Keras to train the Mini-ImageNet 
 dataset on the course website. You may use transfer learning. Your
@@ -177,7 +177,7 @@ python test.py test <model file>
 The output of test.py is the test error of the data which is
 the number of misclassifications divided by size of the test set.
 
-# Assignment 8: Classify images in the three Kaggle datasets on the course website with convolutional networks
+**# Assignment 8: [Classify images in the three Kaggle datasets on the course website with convolutional networks](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_8)**
 
 Classify images in the three Kaggle datasets on the course website 
 with convolutional networks. You may use transfer learning. Your
@@ -197,7 +197,7 @@ python test.py test <model file>
 The output of test.py is the test error of the data which is
 the number of misclassifications divided by size of the test set.
 
-# Assignment 9: Implement a simple GAN in Keras
+**# Assignment 9: [Implement a simple GAN in Keras](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_9)**
 
 Implement a simple GAN in Keras to generate MNIST images. Use the GAN given here
 
@@ -216,8 +216,31 @@ python train.py MNIST_train_directory <generator model file>
 Make test.py take one input: the generator model file. The output
 of test.py should be images resembling MNIST digits saved to the output
 file.
-
-# Assignment 10: Implement a simple black box attack in Keras
+	
+Solutions:
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0001.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0020.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0040.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0060.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0080.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0100.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0120.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0140.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0160.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0180.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0200.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0220.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0240.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0260.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0280.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0300.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0320.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0340.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0360.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0380.png)
+![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0400.png)
+	
+**# Assignment 10: [Implement a simple black box attack in Keras](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_10)**
 
 Implement a simple black box attack in Keras to attack a pretrained 
 ResNet18 model from Keras. For the substitute model we use a two hidden 
@@ -254,7 +277,7 @@ The output should be the accuracy of adversarial examples generated with
 epsilon=0.0625. A successful submission will have accuracy below 10%
 on the advsersarial examples.
 
-# Assignment 11: word2vec model from fake news dataset
+**# Assignment 11: [word2vec model from fake news dataset](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_11)**
 
 Learn a word2vec model from fake news dataset and a real news dataset. We 
 will use the word2vec model implemented in the Python Gensim library. Now 
