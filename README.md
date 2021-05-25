@@ -218,26 +218,47 @@ of test.py should be images resembling MNIST digits saved to the output
 file.
 	
 Solutions:
+	**After Epoch 1:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0001.png)
+	**After Epoch 20:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0020.png)
+	**After Epoch 40:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0040.png)
+	**After Epoch 60:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0060.png)
+	**After Epoch 80:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0080.png)
+	**After Epoch 100:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0100.png)
+	**After Epoch 120:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0120.png)
+	**After Epoch 140:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0140.png)
+	**After Epoch 160:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0160.png)
+	**After Epoch 180:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0180.png)
+	**After Epoch 200:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0200.png)
+	**After Epoch 220:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0220.png)
+	**After Epoch 240:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0240.png)
+	**After Epoch 260:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0260.png)
+	**After Epoch 280:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0280.png)
+	**After Epoch 300:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0300.png)
+	**After Epoch 320:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0320.png)
+	**After Epoch 340:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0340.png)
+	**After Epoch 360:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0360.png)
+	**After Epoch 380:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0380.png)
+	**After Epoch 400:**
 ![](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/blob/master/assignment_9/geneartive_model_image_0400.png)
 	
 **# Assignment 10: [Implement a simple black box attack in Keras](https://github.com/Suraj-Jha1508/Deep_Learning_CS677/tree/master/assignment_10)**
